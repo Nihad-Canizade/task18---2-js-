@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: linen;
+}
+
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 5rem;
+}
+
+.nihad, .nail{
+    border: 1px solid black;
+    width: 600px;
+    height: 500px;
+    padding-left: 2rem;
+}

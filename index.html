@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+    <script src="./main.js"></script>
+</head>
+
+<body>
+
+    <!-- Section 1 -->
+    <section class="section1">
+
+        <!-- Nihad -->
+        <div class="nihad">
+            <p style="margin-top: 5rem;">Nihadın boyunu daxil edin:</p>
+            <input type="text" id="nihadheight">
+            <br><br>
+            <p>Nihadın çəkisini daxil edin:</p>
+            <input type="text" id="nihadweight">
+            <br><br>
+            <p style="font-size: 18px; text-decoration: underline;">Nihadın Bədən Kütlə indeksini (BKİ) hesablamaq üçün
+                buttona klikləyin!</p><br>
+            <button onclick="Hesabla()">Hesabla</button>
+            <input type="number" readonly placeholder="Nəticə:" id="ni-netice"><br><br>
+            <h2 style="color: red;">Not: Əgər Nihadın boyunu və çəkisini bilmirsizsə, <br> 
+                boy yeninə "x" , çəki yerinə isə "y" yazın.</h2>
+        </div>
+
+        <!-- Nail -->
+
+        <div class="nail">
+            <p style="margin-top: 5rem;">Nailin boyunu daxil edin:</p>
+            <input type="text" id="nailheight">
+            <br><br>
+            <p>Nailin çəkisini daxil edin:</p>
+            <input type="text" id="nailweight">
+            <br><br>
+            <p style="font-size: 18px; text-decoration: underline;">Nailin Bədən Kütlə indeksini (BKİ) hesablamaq üçün
+                buttona klikləyin!</p><br>
+            <button onclick="Hesabla2()">Hesabla</button>
+            <input type="number" readonly placeholder="Nəticə:" id="na-netice"><br><br>
+            <h2 style="color: red;">Not: Əgər Nailin boyunu və çəkisini bilmirsizsə, <br>
+                 boy yeninə "a" , çəki yerinə isə "b" yazın.</h2>
+        </div>
+    </section>
+
+</body>
+
+</html>
